@@ -84,7 +84,7 @@ app.delete('/todos/:id', function (req, res) {
 			res.status(204).send();
 		}
 	}, function () {
-		res.status(500).send()
+		res.status(500).send();
 	});	
 });
 
