@@ -31,7 +31,7 @@ module.exports = function (sequelize, DataTypes) {
 				this.setDataValue('salt', salt);
 				this.setDataValue('password_hash', hashedPassword);
 			}
-		} 
+		}  
 	}, {
 		hooks: {
 			beforeValidate: function (user, options) {				
