@@ -37,8 +37,7 @@ app.get('/todos', function (req, res) {
 	
 	}, function(e) {
 		res.status(500).send();
-	});
-	
+	});	
 });
 
 //GET /todos/:id
